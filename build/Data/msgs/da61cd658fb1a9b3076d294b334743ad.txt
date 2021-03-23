@@ -1,0 +1,1 @@
+{"type":"infodialog","name":"standart","creator":"1","admins":"1","ids":[null,"1"],"img":""}

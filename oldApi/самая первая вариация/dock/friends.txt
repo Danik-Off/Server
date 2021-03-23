@@ -1,0 +1,4 @@
+типы отношений
+friend_request
+subscription
+friend

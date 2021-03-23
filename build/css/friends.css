@@ -1,0 +1,74 @@
+.wrapper_friend
+{
+    position:relative;
+   
+    width: 700px;
+    height: 55px;
+    padding-top: 20px;
+}
+.wrapper_friend .friend
+{
+    position: relative;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+
+}
+.wrapper_friend .friend .profileimg
+{ position: relative;
+    display:inline-block;
+    margin-top: 0;
+    margin-left: 4px;
+    top: -8px;
+   height: 45px;
+   width: 45px;
+   border-radius: 23px;
+   background-color: azure;
+}
+.wrapper_friend .friend div{
+    position:relative;
+    display:inline-block;
+    top: -8px;
+    padding: 0;
+    height: 100%;
+    margin-left: 10px;
+  
+}
+.wrapper_friend .friend div h1{
+    position:relative ; 
+   font-size: 20px;
+   padding: 0;
+  
+  }
+  .wrapper_friend .friend div h2{
+    position:relative;
+    top: -10px;
+    font-size: 10px;
+  }
+  .wrapper_friend .friend .right{
+    position:relative ; 
+    float: right;
+   
+   top:0;
+   margin-top: 0;
+   margin-right: 8px;
+   width: 200px;
+   height: 53px;
+  
+  }
+  .wrapper_friend .friend .right .msg
+  {
+    float:right;
+      position: relative;
+      margin: 0;
+      top: 10px;
+      height: 35px;
+      width: max-content;
+      border-radius: 10px;
+      color: white;
+      background-color: black;
+      border: 1px double white;
+      
+  }

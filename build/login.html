@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url(./css/login.css);</style>
+    <script src="./js/login.js"></script>
+    <script src="./js/lib/miniLib.js"></script>
+    <script src="./js/lib/api.js"></script>
+    <title>Авторизация</title>
+</head>
+<body>
+    <div class="mainblock">
+    <div class="centerblock">
+        <div class ="topimg"><img src="./src/LampIcoforPage.png"/></div>
+        <div class="bottonpanel"><h5>Ещё не зарегистрированы? <a href="">Зарегистрироваться</a></h5></div>
+        <div class="form">
+ <!-- Окно входа --> 
+<div class="login" id="loginpanel">
+<h3>Логин</h3>
+<div class="inputdiv"><input id="inputLogin"/></div><br><br>
+<h3>Пароль</h3>
+<div class="inputdiv"><input id="inputPassword"/></div><br>
+<button class="loginbut" onclick="Click_loginBut()" >Войти</button>
+</div>
+<!-- Окно загрузки  --> 
+<div class="spinner" id="loadpanel"></div>
+</div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url(./css/toppanel.css);</style>
+    <style>@import url(./css/Post.css);</style>
+    <style>@import url(./css/friends.css);</style>
+    <style>@import url(./css/find.css);</style>
+    <script src="./js/lib/jquery-3.5.1.min.js"></script>
+    <script src="./js/topnavigation.js"></script>
+    <script src="./js/lib/miniLib.js"></script>
+    <script src="./js/lib/api.js"></script>
+    <script src="./js/Post.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/newsFeed.js"></script>
+    <script  src="./js/lib/jquery.imagesGrid.js"></script>
+    
+    <title id="pageTitle">Lamp</title>
+    <link rel="shortcut icon" href="src/LampIcon.png" type="image/x-icon">
+</head>
+<body onload="onopen()">
+    <div class="toppanel">
+        <div class="leftpanel">
+<button onclick="openPage('news')">Новости</button>
+<button onclick="openPage('dialogs')">Сообщения</button>
+<button onclick="openPage('friends')">Друзья</button>
+<!--<button onclick="openPage('video')">Видео</button>-->
+<button onclick="openPage('music')">Музыка</button>
+<button onclick="openPage('find')">Найти</button>
+        </div>
+        <div class="rightpanel" id="rightpanel1">
+<button onclick="GoToAuth()">Вход</button>
+
+        </div>
+        <div class="rightpanel"  id="rightpanel2">
+            <img />
+            <button >Аккаунт</button>
+            
+                    </div>
+        <div class="GotoMain" ><img src="./src/LampIcoforPage.png"/></div>
+ </div>
+ 
+<div class="PlaceForcontent">
+ <div class="ConteinerForPages" id="ConteinerForPages"> </div></div>
+</body>
+</html>
